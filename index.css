@@ -96,3 +96,17 @@ input.form-control {
     font-style: italic;
     padding: 60px 45px;
 }
+.navigation{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+.navigation h4{
+	margin-right: 10px;
+}
+button.small{
+  padding: 5px 30px;
+  border-radius: 4px;
+}
