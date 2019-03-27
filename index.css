@@ -1,0 +1,25 @@
+*{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+	width: 100%;
+	height: ;
+}
+.container{
+	display:block;
+	height:649px;
+	width:380px;
+	margin: 0 auto;
+	padding: 30px;
+}
+form{
+	display: block;
+	line-height: 21px;
+	text-align: left;
+}
+input{
+	display: block;
+	line-height: 21px;
+}
