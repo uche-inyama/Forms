@@ -11,7 +11,7 @@ body {
 
 header{
 	width: 100%;
-	height: ;
+	height: 60px;
 }
 
 .main{
@@ -24,7 +24,6 @@ header{
 
 .main h2, .main h4 {
   text-align: center;
-
   padding: 15px 0;
 }
 
@@ -78,6 +77,21 @@ input.form-control {
     width: 100%;
 }
 
+.logo-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.logo-section img {
+  position: absolute;
+  top: 60px;
+  left: 900px;
+  right: auto;
+  clip:rect(0 118px 35px 0);
+}
+
 .captcha, .terms {
   text-align: center;
 }
@@ -106,7 +120,55 @@ input.form-control {
 .navigation h4{
 	margin-right: 10px;
 }
+
 button.small{
   padding: 5px 30px;
   border-radius: 4px;
+}
+
+.main div.icons > ul {
+  list-style: none;
+}
+
+.icons-wrapper {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+}
+
+.icons-wrapper li {
+  margin: 0 3px;
+  height: 23px;
+}
+
+li.mint-favicon {
+  background: url(./assets/images/mint-favicon.svg) no-repeat;
+  width: 23px;
+}
+
+li.mint-text {
+  width: 36px;
+  background: url(./assets/images/mint-text.svg) no-repeat;
+}
+
+li.quickbooks-favicon {
+  background: url(./assets/images/quickbooks-favicon@2x.svg) no-repeat;
+  width: 23px;
+}
+
+li.quickbooks-text {
+  width: 100px;
+  background: url(./assets/images/quick-books-text.svg) no-repeat;
+}
+
+li.turbotax-favicon {
+  background: url(./assets/images/tt-favicon@2x.svg) no-repeat;
+  width: 23px;
+}
+
+li.turbotax-text {
+  background: url(./assets/images/turbo-tax-text.svg) no-repeat;
+  width: 100px;
 }
