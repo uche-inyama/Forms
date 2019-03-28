@@ -1,3 +1,5 @@
-function uche (){
-let foo = 12
+const ucheFn = () => {
+	const foo = 12;
+	
+	foo = 36;
 }
