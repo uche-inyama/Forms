@@ -1,3 +1,2 @@
-function uche (){
-let foo = 12
-}
+const foo = 10;
+foo = 10;
