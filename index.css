@@ -1,14 +1,14 @@
 *{
 	box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial sans-serif;
-    font-weight: 400;
+    padding: 0; 
 }
 
 body {
   background: #ECEEF1;
   color: #555;
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial sans-serif;
+  font-weight: 400;
 }
 
 header{
