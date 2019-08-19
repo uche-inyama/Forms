@@ -1,0 +1,177 @@
+*{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+  background: #ECEEF1;
+  color: #555;
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial sans-serif;
+  font-weight: 400;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+}
+
+.main{
+	display:block;
+	height: auto;
+	margin: 0 auto;
+	padding: 30px;
+    width: 460px;
+}
+
+.main h2, .main h4 {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.main h2 {
+  font-weight: 500;
+}
+
+.main h4 {
+  font-weight: lighter;
+}
+
+.main form {
+  background-color: #fff;
+  border: 1px solid #C9C9C9;
+  border-radius: 3px;
+  display: block;
+  line-height: 21px;
+  padding: 30px;
+  text-align: left;
+}
+
+.form-control {
+  height: 34px;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+input.form-control {
+  border: 1px solid #C9C9C9;
+  border-radius: 2px;
+  display: block;
+	line-height: 21px;
+}
+
+.btn {
+  border-radius: 2px;
+  padding: 12px;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #0077C5;
+  border: 1px solid #0077C5;
+  color: #fff;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.logo-section img {
+  position: absolute;
+  top: 60px;
+  left: 900px;
+  right: auto;
+  clip:rect(0 118px 35px 0);
+}
+
+.captcha, .terms {
+  text-align: center;
+}
+
+.captcha {
+  background-color: #ECEEF1;
+  font-size: 70%;
+  margin-bottom: -30px;
+  margin-left: -30px;
+  margin-right: -30px;
+  padding: 30px;
+}
+
+.terms {
+    font-size: 80%;
+    font-style: italic;
+    padding: 60px 45px;
+}
+.navigation{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+.navigation h4{
+	margin-right: 10px;
+	font-size: 12px;
+}
+
+button.small{
+  padding: 5px 30px;
+  border-radius: 4px;
+}
+
+.main div.icons > ul {
+  list-style: none;
+}
+
+.icons-wrapper {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+}
+
+.icons-wrapper li {
+  margin: 0 3px;
+  height: 23px;
+}
+
+li.mint-favicon {
+  background: url(./assets/images/mint-favicon.svg) no-repeat;
+  width: 23px;
+}
+
+li.mint-text {
+  width: 36px;
+  background: url(./assets/images/mint-text.svg) no-repeat;
+}
+
+li.quickbooks-favicon {
+  background: url(./assets/images/quickbooks-favicon@2x.svg) no-repeat;
+  width: 23px;
+}
+
+li.quickbooks-text {
+  width: 100px;
+  background: url(./assets/images/quick-books-text.svg) no-repeat;
+}
+
+li.turbotax-favicon {
+  background: url(./assets/images/tt-favicon@2x.svg) no-repeat;
+  width: 23px;
+}
+
+li.turbotax-text {
+  background: url(./assets/images/turbo-tax-text.svg) no-repeat;
+  width: 100px;
+}
